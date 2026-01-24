@@ -638,7 +638,7 @@ color: #fff;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  resize: vertical;
+  resize: none;
   min-height: 100px;
   max-width: 360px;
   width: 100%;
