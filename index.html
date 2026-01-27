@@ -413,7 +413,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay is-open" id="modal-overlay">
+    <div class="modal-overlay" id="modal-overlay">
       <div class="modal">
         <button class="modal-close-button" id="modal-close-button" type="button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -491,11 +491,14 @@
             />
             <label for="consent" class="modal-checkbox-label">
               <span class="span-check">
-                <svg class="modal-check-icon" width="16" height="16">
+                <svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-click"></use>
                 </svg>
-              </span>I accept the terms and conditions of the <a href="#">Privacy Policy</a>
-            </label>
+              </span>
+              <p class="checkbox-text">I accept the terms and conditions of the</p>
+              <a href="#">Privacy Policy</a>
+              
+              </label>
           </div>
           <button class="modal-send-button" type="submit">Send</button>
         </form>
