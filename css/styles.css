@@ -653,11 +653,11 @@ header {
   margin-bottom: 4px;
 }
 .modal-textarea {
-  padding: 12px 16px;
+  padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: #434455;
   resize: none;
@@ -702,10 +702,19 @@ header {
   background: transparent;
   width: 16px;
   height: 16px;
-  display: inline-block;
+  display: flex;
   position: relative;
   margin-right: 8px;
   cursor: pointer;
+  align-items: center;
+justify-content: center;
+}
+.modal-check-icon {
+  width: 10px;
+  height: 8px;
+  display: block;
+  fill: transparent;
+
 }
 .checkbox-text {
    font-family: "Roboto", sans-serif;
@@ -715,16 +724,6 @@ header {
   letter-spacing: 0.04em;
   margin: 0;
   margin-right: 4px;
-}
-.modal-check-icon {
-  width: 16px;
-  height: 16px;
-  display: block;
-  fill: transparent;
-}
-.modal-checkbox {
-  width: 16px;
-  height: 16px;
 }
 .modal-checkbox:checked+.modal-checkbox-label .modal-check-icon{
   fill: #f4f4fd;
