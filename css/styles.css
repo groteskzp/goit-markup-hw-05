@@ -678,6 +678,8 @@ header {
 .modal-field-checkbox {
   margin-bottom: 24px;
   width: 360px;
+  display: flex;
+  flex-direction: row;
   
 }
 .modal-checkbox-label {
@@ -686,7 +688,7 @@ header {
   color: #8e8f99;
   cursor: pointer;
 }
-.modal-checkbox-label a{
+.modal-field-checkbox a{
   line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
