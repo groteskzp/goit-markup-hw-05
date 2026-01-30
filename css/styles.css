@@ -698,7 +698,8 @@ header {
   font-size: 12px;
   letter-spacing: 0.04em;
   }
-.modal-checkbox-label span{  
+/* .modal-checkbox-label  */
+.span-check {  
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background: transparent;
@@ -730,11 +731,11 @@ justify-content: center;
 .modal-checkbox:checked+.modal-checkbox-label .modal-check-icon{
   fill: #f4f4fd;
 }
-.modal-checkbox:checked+.modal-checkbox-label span {
+.modal-checkbox:checked+.modal-checkbox-label .span-check {
   background-color: #4d5ae5;
 }
-.modal-checkbox:focus+.modal-checkbox-label span,
-.modal-checkbox:hover+.modal-checkbox-label span {
+.modal-checkbox:focus+.modal-checkbox-label .span-check,
+.modal-checkbox:hover+.modal-checkbox-label .span-check {
   border: 1px solid #4d5ae5;
 }
 .modal-send-button {
